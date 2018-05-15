@@ -1,2 +1,3 @@
-require './app'
-run FormsLab::App
+require './config/environment'
+
+run App
