@@ -1,9 +1,5 @@
-require './environment'
+require_relative 'config/environment'
 
-module FormsLab
-  class App < Sinatra::Base
+class App < Sinatra::Base
 
-    # code other routes/actions here
-
-  end
 end
